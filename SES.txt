@@ -1,0 +1,28 @@
+# so i am going to need to look up these commands:
+'''
+a: Append    a/newtext/   Append the new text on the end of the string <=== Done for you.
+d: Delete   d/oldtext/   Delete the old text from the string
+s: Substitute   s/old/new/  Replace the old text with the new text
+i: Insert   i/loc/text/  Insert text after location (which is an integer!)
+r: Reverse   r   Reverse the text
+quit: Exit <=== Done for you.
+
+Here is an example transcript for the string editor:
+
+s = "abcdefghi"
+s = stringEditor(s)
+abcdefghi
+Enter command: a/more/
+abcdefghimore
+Enter command: d/more/
+abcdefghi
+Enter command: s/bcd/xyz/
+axyzefghi
+Enter command: i/4/----/
+axyz----efghi
+Enter command: r
+ihgfe----zyxa
+Enter command: quit
+
+
+'''
